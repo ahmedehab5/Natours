@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "prctice on node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedehab5/Natours.git"
+  },
+  "author": "Ahmed Ehab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedehab5/Natours/issues"
+  },
+  "homepage": "https://github.com/ahmedehab5/Natours#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
