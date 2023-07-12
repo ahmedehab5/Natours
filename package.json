@@ -4,7 +4,8 @@
   "description": "prctice on node",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=development nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ahmedehab5/Natours#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
