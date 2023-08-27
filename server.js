@@ -1,4 +1,5 @@
 const app = require('./app');
+const mongoose = require("mongoose") 
 
 mongoose.connect(process.env.DATABASE,{
     useNewUrlParser : true,
